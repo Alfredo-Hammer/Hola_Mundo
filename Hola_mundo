@@ -1,0 +1,35 @@
+# Mi primer programa con python
+
+'''
+El tipado dinamico es cuando un variable puede
+contener diferentes tipos de datos a lo largo del programa
+'''
+
+nombre = "Alfredo hammer"
+edad = 39
+
+print("Hola", nombre, "su edad es:", edad)
+
+valor = True
+print(valor)
+
+a = 40
+b = 20
+
+c = a + b  # Operador aritmetico suma
+print("La suma es:", c)
+
+c = a - b  # Operador resta
+print("la resta es: ", c)
+
+c = a * b  # Operador Multiplicacion
+print("La Multiplicacion es:", c)
+
+c = a // b  # Operador Division con doble slash redondeamos el numero a la baja
+print("la Divicion es: ", c)
+
+c = a % b
+print("El modulo es: ", c)
+
+c = a ** b #Calculmos la exponenciacion de un numero
+print("El exponente es; " , c)
